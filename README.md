@@ -18,7 +18,8 @@ class PDF_Sector extends FPDF
             $b += $o;
             $a += $o;
         }
-        while($a<0)
+        while($a<0) 
+        
             $a += 360;
         while($a>360)
             $a -= 360;
